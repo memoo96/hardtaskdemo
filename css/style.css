@@ -610,6 +610,7 @@ textarea.form-control {
   top: 22px;
   right: 140px;
   z-index: 10000;
+  display: none;
 }
 
 .header_language a {
@@ -1668,34 +1669,29 @@ textarea.form-control {
 
 #Web .left_taps {
   background: linear-gradient(to right, #2682f0 2%, #115cb8 82%);
-  float: left;
+  height: 640px;
 }
 
 #Web .left_taps .num {
   display: flex;
   vertical-align: top;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 76px;
-  padding: 4px 10px 0 30px;
+  padding: 4px 10px 0 26px;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.2);
   align-items: flex-start;
   font-weight: 900;
-  background: url("../images/trans_hard_logo.png") no-repeat;
-  background-size: 16%;
-  background-position: 11px 7px;
+  background: url(../images/trans_hard_logo.png) no-repeat;
+  background-size: 52px;
+  background-position: 12px;
 }
 
 #Web .left_taps .tild {
   margin: 0;
   font-size: 37px;
-  line-height: 24px;
-  display: inline-block;
-  vertical-align: bottom;
+  margin-top: 30rem;
   transform: rotate(-90deg);
-  position: absolute;
-  top: 54%;
-  right: 160px;
   letter-spacing: 0;
   font-weight: 900;
   white-space: nowrap;
@@ -1703,14 +1699,7 @@ textarea.form-control {
 }
 
 #Web .left_taps .filter {
-  float: left;
-  width: 75%;
-  padding: 0;
-  min-height: 564px;
-  margin-left: 100px;
-  position: relative;
-  top: -70px;
-  text-align: left;
+  padding: 0 10px;
 }
 
 #Web .left_taps .filter .title {
@@ -2020,34 +2009,29 @@ textarea.form-control {
 
 #Apps .left_taps {
   background: #fcb82e;
-  float: right;
+  height: 640px;
 }
 
 #Apps .left_taps .num {
   display: flex;
   vertical-align: top;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 76px;
-  padding: 4px 10px 0 30px;
+  padding: 4px 10px 0 23px;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.2);
   align-items: flex-start;
   font-weight: 900;
-  background: url("../images/trans_hard_logo_2.png") no-repeat;
-  background-size: 16%;
-  background-position: 15px 7px;
+  background: url(../images/trans_hard_logo.png) no-repeat;
+  background-size: 52px;
+  background-position: 12px;
 }
 
 #Apps .left_taps .tild {
   margin: 0;
   font-size: 37px;
-  line-height: 24px;
-  display: inline-block;
-  vertical-align: bottom;
+  margin-top: 27rem;
   transform: rotate(-90deg);
-  position: absolute;
-  top: 54%;
-  right: 177px;
   letter-spacing: 0;
   font-weight: 900;
   white-space: nowrap;
@@ -2055,14 +2039,7 @@ textarea.form-control {
 }
 
 #Apps .left_taps .filter {
-  float: left;
-  width: 75%;
-  padding: 0;
-  min-height: 564px;
-  margin-left: 100px;
-  position: relative;
-  top: -70px;
-  text-align: left;
+  padding: 0 10px;
 }
 
 #Apps .left_taps .filter .title {
@@ -2090,34 +2067,29 @@ textarea.form-control {
 
 #Desktop .left_taps {
   background: #7dbb4d;
-  float: left;
+  height: 640px;
 }
 
 #Desktop .left_taps .num {
   display: flex;
   vertical-align: top;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 76px;
-  padding: 4px 10px 0 27px;
+  padding: 4px 10px 0 23px;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.2);
   align-items: flex-start;
   font-weight: 900;
-  background: url("../images/trans_hard_logo_3.png") no-repeat;
-  background-size: 16%;
-  background-position: 11px 7px;
+  background: url(../images/trans_hard_logo.png) no-repeat;
+  background-size: 52px;
+  background-position: 12px;
 }
 
 #Desktop .left_taps .tild {
   margin: 0;
   font-size: 37px;
-  line-height: 24px;
-  display: inline-block;
-  vertical-align: bottom;
+  margin-top: 22rem;
   transform: rotate(-90deg);
-  position: absolute;
-  top: 54%;
-  right: 220px;
   letter-spacing: 0;
   font-weight: 900;
   white-space: nowrap;
@@ -2125,14 +2097,7 @@ textarea.form-control {
 }
 
 #Desktop .left_taps .filter {
-  float: left;
-  width: 75%;
-  padding: 0;
-  min-height: 564px;
-  margin-left: 100px;
-  position: relative;
-  top: -70px;
-  text-align: left;
+  padding: 0 10px;
 }
 
 #Desktop .left_taps .filter .title {
@@ -2176,34 +2141,29 @@ textarea.form-control {
 
 #Multimedia .left_taps {
   background: linear-gradient(to right, #f05236 2%, #c53319 82%);
-  float: right;
+  height: 640px;
 }
 
 #Multimedia .left_taps .num {
   display: flex;
   vertical-align: top;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 76px;
-  padding: 4px 10px 0 30px;
+  padding: 4px 10px 0 23px;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.2);
   align-items: flex-start;
   font-weight: 900;
-  background: url("../images/trans_hard_logo_4.png") no-repeat;
-  background-size: 16%;
-  background-position: 15px 7px;
+  background: url(../images/trans_hard_logo.png) no-repeat;
+  background-size: 52px;
+  background-position: 12px;
 }
 
 #Multimedia .left_taps .tild {
   margin: 0;
   font-size: 37px;
-  line-height: 24px;
-  display: inline-block;
-  vertical-align: bottom;
+  margin-top: 22rem;
   transform: rotate(-90deg);
-  position: absolute;
-  top: 54%;
-  right: 220px;
   letter-spacing: 0;
   font-weight: 900;
   white-space: nowrap;
@@ -2211,14 +2171,7 @@ textarea.form-control {
 }
 
 #Multimedia .left_taps .filter {
-  float: left;
-  width: 75%;
-  padding: 0;
-  min-height: 564px;
-  margin-left: 100px;
-  position: relative;
-  top: -70px;
-  text-align: left;
+  padding: 0 10px;
 }
 
 #Multimedia .left_taps .filter .title {
@@ -3521,17 +3474,6 @@ textarea.form-control {
     text-align: justify;
   }
 
-  #Web .left_taps .filter {
-    width: 75%;
-    min-height: 470px;
-    margin-left: 70px;
-  }
-
-  #Web .left_taps .tild {
-    font-size: 28px;
-    top: 48%;
-    right: 77px;
-  }
   .nav-pills .nav-item i {
     right: 20px;
   }
@@ -3539,49 +3481,23 @@ textarea.form-control {
   .nav-pills .nav-item span {
     right: 3px;
   }
-  #Web .left_taps .num {
-    font-size: 24px;
-    line-height: 76px;
-    padding: 4px 10px 0px 21px;
-    background-position: 11px 18px;
-  }
-
-  #Desktop .left_taps .filter {
-    width: 75%;
-    min-height: 470px;
-    margin-left: 70px;
+  #Web .left_taps .tild {
+    font-size: 28px;
+    margin-top: 22rem;
+    margin-left: -10px;
   }
 
   #Desktop .left_taps .tild {
     font-size: 28px;
-    top: 48%;
-    right: 125px;
+    margin-top: 16rem;
+    margin-left: -10px;
   }
 
-  #Desktop .left_taps .num {
-    font-size: 24px;
-    line-height: 76px;
-    padding: 4px 10px 0px 21px;
-    background-position: 11px 18px;
-  }
-
-  #Apps .left_taps .filter {
-    width: 75%;
-    min-height: 470px;
-    margin-left: 70px;
-  }
-
-  #Apps .left_taps .num {
-    font-size: 24px;
-    line-height: 76px;
-    padding: 4px 10px 0px 21px;
-    background-position: 11px 18px;
-  }
 
   #Apps .left_taps .tild {
     font-size: 28px;
-    top: 48%;
-    right: 95px;
+    margin-top: 20rem;
+    margin-left: -10px;
   }
   #Apps .nav-pills .nav-item i {
     left: 20px;
@@ -3590,23 +3506,12 @@ textarea.form-control {
     left: 3px;
   }
 
-  #Multimedia .left_taps .filter {
-    width: 75%;
-    min-height: 470px;
-    margin-left: 70px;
-  }
 
-  #Multimedia .left_taps .num {
-    font-size: 24px;
-    line-height: 76px;
-    padding: 4px 10px 0px 21px;
-    background-position: 11px 18px;
-  }
 
   #Multimedia .left_taps .tild {
     font-size: 28px;
-    top: 48%;
-    right: 128px;
+    margin-top: 16rem;
+    margin-left: -10px;
   }
   #Multimedia .nav-pills .nav-item i {
     left: 20px;
@@ -3909,16 +3814,10 @@ textarea.form-control {
     text-align: justify;
   }
 
-  #Web .left_taps .filter {
-    width: 75%;
-    min-height: 470px;
-    margin-left: 70px;
-  }
 
   #Web .left_taps .tild {
     font-size: 28px;
-    top: 48%;
-    right: 295px;
+    margin-top: 22rem;
   }
   .nav-pills .nav-item i {
     right: 20px;
@@ -3927,46 +3826,15 @@ textarea.form-control {
   .nav-pills .nav-item span {
     right: 3px;
   }
-  #Web .left_taps .num {
-    font-size: 28px;
-    padding: 0px 10px 0px 25px;
-    background-size: 11%;
-  }
-
-  #Desktop .left_taps .filter {
-    width: 75%;
-    min-height: 470px;
-    margin-left: 70px;
-  }
 
   #Desktop .left_taps .tild {
     font-size: 28px;
-    top: 48%;
-    right: 345px;
+    margin-top: 16rem;
   }
 
-  #Desktop .left_taps .num {
-    font-size: 28px;
-    padding: 0px 10px 0px 25px;
-    background-size: 11%;
-  }
-
-  #Apps .left_taps .filter {
-    width: 75%;
-    min-height: 470px;
-    margin-left: 70px;
-  }
-
-  #Apps .left_taps .num {
-    font-size: 28px;
-    padding: 0px 10px 0 21px;
-    background-size: 11%;
-    background-position: 11px 7px;
-  }
   #Apps .left_taps .tild {
     font-size: 28px;
-    top: 48%;
-    right: 310px;
+    margin-top: 20rem;
   }
   #Apps .nav-pills .nav-item i {
     left: 20px;
@@ -3975,23 +3843,9 @@ textarea.form-control {
     left: 3px;
   }
 
-  #Multimedia .left_taps .filter {
-    width: 75%;
-    min-height: 470px;
-    margin-left: 70px;
-  }
-
-  #Multimedia .left_taps .num {
-    font-size: 28px;
-    padding: 0px 10px 0 21px;
-    background-size: 11%;
-    background-position: 11px 7px;
-  }
-
   #Multimedia .left_taps .tild {
     font-size: 28px;
-    top: 48%;
-    right: 345px;
+    margin-top: 16rem;
   }
   #Multimedia .nav-pills .nav-item i {
     left: 20px;
@@ -4253,15 +4107,10 @@ textarea.form-control {
     text-align: justify;
   }
 
-  #Web .left_taps .filter {
-    width: 75%;
-    min-height: 391px;
-    margin-left: 70px;
-  }
 
   #Web .left_taps .tild {
     font-size: 28px;
-    right: 55px;
+    margin-top: 22rem;
   }
   .nav-pills .nav-item i {
     right: 20px;
@@ -4270,46 +4119,17 @@ textarea.form-control {
   .nav-pills .nav-item span {
     right: 3px;
   }
-  #Web .left_taps .num {
-    font-size: 24px;
-    padding: 0px 10px 0px 23px;
-    background-size: 18%;
-    background-position: 11px 12px;
-  }
 
-  #Desktop .left_taps .filter {
-    width: 75%;
-    min-height: 391px;
-    margin-left: 70px;
-  }
 
   #Desktop .left_taps .tild {
     font-size: 28px;
-    right: 100px;
+    margin-top: 16rem;
   }
 
-  #Desktop .left_taps .num {
-    font-size: 24px;
-    padding: 0px 10px 0px 23px;
-    background-size: 18%;
-    background-position: 11px 12px;
-  }
 
-  #Apps .left_taps .filter {
-    width: 70%;
-    min-height: 391px;
-    margin-left: 70px;
-  }
-
-  #Apps .left_taps .num {
-    font-size: 24px;
-    padding: 0px 10px 0 20px;
-    background-size: 18%;
-    background-position: 11px 12px;
-  }
   #Apps .left_taps .tild {
     font-size: 28px;
-    right: 75px;
+    margin-top: 20rem;
   }
   #Apps .nav-pills .nav-item i {
     left: 20px;
@@ -4318,22 +4138,9 @@ textarea.form-control {
     left: 3px;
   }
 
-  #Multimedia .left_taps .filter {
-    width: 70%;
-    min-height: 391px;
-    margin-left: 70px;
-  }
-
-  #Multimedia .left_taps .num {
-    font-size: 24px;
-    padding: 0px 10px 0 20px;
-    background-size: 18%;
-    background-position: 11px 12px;
-  }
-
   #Multimedia .left_taps .tild {
     font-size: 28px;
-    right: 108px;
+    margin-top: 16rem;
   }
   #Multimedia .nav-pills .nav-item i {
     left: 20px;
@@ -4470,29 +4277,6 @@ textarea.form-control {
   .item .image {
     height: 182px;
   }
-  #Web .left_taps .tild {
-    right: 90px;
-  }
-  #Apps .left_taps .filter {
-    width: 70%;
-  }
-  #Apps .left_taps .tild {
-    right: 110px;
-  }
-  #Desktop .left_taps .num {
-    background-size: 18%;
-  }
-  #Desktop .left_taps .tild {
-    right: 150px;
-  }
-
-  #Multimedia .left_taps .filter {
-    width: 70%;
-  }
-  #Multimedia .left_taps .tild {
-    right: 150px;
-  }
-
   .caseItem .screen {
     height: 715px;
   }
