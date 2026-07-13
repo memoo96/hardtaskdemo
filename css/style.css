@@ -2654,7 +2654,7 @@ textarea.form-control {
 
 .Tech_Tabs .nav-link.active,
 .Tech_Tabs .nav-link:hover {
-  background-color: #2682f0 !important;
+  background-color: #237ce5 !important;
 }
 
 .Tech_Tabs .nav-link.active:after {
@@ -2663,7 +2663,7 @@ textarea.form-control {
   height: 0;
   border-left: 18px solid transparent;
   border-right: 18px solid transparent;
-  border-top: 12px solid #2682f0;
+  border-top: 12px solid #237ce5;
   position: absolute;
   bottom: -12px;
   left: 42%;
@@ -3481,22 +3481,28 @@ textarea.form-control {
   .nav-pills .nav-item span {
     right: 3px;
   }
-  #Web .left_taps .tild {
-    font-size: 28px;
-    margin-top: 22rem;
-    margin-left: -10px;
-  }
 
-  #Desktop .left_taps .tild {
-    font-size: 28px;
+  #Web .left_taps,
+  #Apps .left_taps,
+  #Desktop .left_taps,
+  #Multimedia .left_taps {
+    height: 435px;
+  }
+  #Web .left_taps .tild {
+    font-size: 22px;
     margin-top: 16rem;
     margin-left: -10px;
   }
 
+  #Desktop .left_taps .tild {
+    font-size: 22px;
+    margin-top: 12rem;
+    margin-left: -10px;
+  }
 
   #Apps .left_taps .tild {
-    font-size: 28px;
-    margin-top: 20rem;
+    font-size: 22px;
+    margin-top: 15rem;
     margin-left: -10px;
   }
   #Apps .nav-pills .nav-item i {
@@ -3506,11 +3512,9 @@ textarea.form-control {
     left: 3px;
   }
 
-
-
   #Multimedia .left_taps .tild {
-    font-size: 28px;
-    margin-top: 16rem;
+    font-size: 22px;
+    margin-top: 12rem;
     margin-left: -10px;
   }
   #Multimedia .nav-pills .nav-item i {
@@ -3533,11 +3537,12 @@ textarea.form-control {
     padding-top: 50px;
   }
   .caseItem .screen .image {
-    height: 300px;
+    height: 380px;
     width: 90%;
   }
   .caseItem .screen {
-    height: 390px;
+    height: 450px;
+    background-size: cover;
   }
   .caseItem .case_title h4 {
     font-size: 16px;
@@ -3814,10 +3819,15 @@ textarea.form-control {
     text-align: justify;
   }
 
-
+  #Web .left_taps,
+  #Apps .left_taps,
+  #Desktop .left_taps,
+  #Multimedia .left_taps {
+    height: 435px;
+  }
   #Web .left_taps .tild {
-    font-size: 28px;
-    margin-top: 22rem;
+    font-size: 22px;
+    margin-top: 16rem;
   }
   .nav-pills .nav-item i {
     right: 20px;
@@ -3828,13 +3838,13 @@ textarea.form-control {
   }
 
   #Desktop .left_taps .tild {
-    font-size: 28px;
-    margin-top: 16rem;
+    font-size: 22px;
+    margin-top: 12rem;
   }
 
   #Apps .left_taps .tild {
-    font-size: 28px;
-    margin-top: 20rem;
+    font-size: 22px;
+    margin-top: 15rem;
   }
   #Apps .nav-pills .nav-item i {
     left: 20px;
@@ -3844,8 +3854,8 @@ textarea.form-control {
   }
 
   #Multimedia .left_taps .tild {
-    font-size: 28px;
-    margin-top: 16rem;
+    font-size: 22px;
+    margin-top: 12rem;
   }
   #Multimedia .nav-pills .nav-item i {
     left: 20px;
@@ -4107,10 +4117,15 @@ textarea.form-control {
     text-align: justify;
   }
 
-
+  #Web .left_taps,
+  #Apps .left_taps,
+  #Desktop .left_taps,
+  #Multimedia .left_taps {
+    height: 460px;
+  }
   #Web .left_taps .tild {
-    font-size: 28px;
-    margin-top: 22rem;
+    font-size: 22px;
+    margin-top: 18rem;
   }
   .nav-pills .nav-item i {
     right: 20px;
@@ -4120,16 +4135,14 @@ textarea.form-control {
     right: 3px;
   }
 
-
   #Desktop .left_taps .tild {
-    font-size: 28px;
-    margin-top: 16rem;
+    font-size: 22px;
+    margin-top: 13rem;
   }
 
-
   #Apps .left_taps .tild {
-    font-size: 28px;
-    margin-top: 20rem;
+    font-size: 22px;
+    margin-top: 16rem;
   }
   #Apps .nav-pills .nav-item i {
     left: 20px;
@@ -4139,8 +4152,8 @@ textarea.form-control {
   }
 
   #Multimedia .left_taps .tild {
-    font-size: 28px;
-    margin-top: 16rem;
+    font-size: 22px;
+    margin-top: 13rem;
   }
   #Multimedia .nav-pills .nav-item i {
     left: 20px;
